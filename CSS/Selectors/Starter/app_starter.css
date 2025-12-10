@@ -1,0 +1,105 @@
+/* * {
+    color: pink;
+} */
+
+/* Elements */
+body {
+    background-color: #f1faee;
+}
+
+h1, h2 {
+    color: #1d3557;
+}
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+span {
+    color: #457b9d;
+}
+
+/* IDs */
+#signup {
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+/* Classes */
+.tag {
+    color: #f1faee;
+    /* background-color: #1d3557; */
+    background-color: #e63946;
+    font-size: 16px;
+}
+
+/* Descendants */
+span a {
+    color: #457b9d;
+}
+
+.post a {
+    color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a {
+    color: #e63946;
+}
+
+/* Adjacent */
+h2 + button {
+    font-size: 20px;
+}
+
+/* Direct Descendant */
+footer > a {
+    color: #638788;
+}
+
+/* Attribute */
+input[type="password"] {
+    color: green;
+}
+
+a[href*="google"] {
+    color: magenta;
+}
+
+/* Pseudo-classes */
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.post button:active {
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #dfe8dc;
+}
+
+.post h2:hover {
+    text-decoration: underline;
+}
+
+/* Pseudo-Elements */
+h2::first-letter {
+    font-size: 35px;
+} 
+
+::selection {
+    background-color: #f5ce80;
+}
+
+
+
+

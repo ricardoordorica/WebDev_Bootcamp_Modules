@@ -1,0 +1,14 @@
+h2 {
+    color: #779933;
+    background-color: rgba(250, 155, 3, 0.404);
+}
+
+button {
+    color: magenta;
+    background-color: pink;
+}
+
+p {
+    color: olive;
+    background: rgba(155, 173, 253, 0.2);
+}
